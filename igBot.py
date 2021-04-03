@@ -25,7 +25,7 @@ class InstagramBot:
         firefoxProfile.set_preference("intl.accept_languages", "pt,pt-BR")
         firefoxProfile.set_preference("dom.webnotifications.enabled", False)
         self.driver = webdriver.Firefox(
-            firefox_profile=firefoxProfile, executable_path=r'C:\Users\rafae\Documents\Projetos\BotComentariosInstagram\geckodriver.exe'
+            firefox_profile=firefoxProfile, executable_path=r'COLOQUE AQUI O CAMINHO DO geckodriver.exe'
         )
 
     def login(self):
